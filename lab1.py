@@ -35,7 +35,7 @@ if __name__ == "__main__":
         for x, y in zip(x_values, y_values):
             writer.writerow([x, y])
 
-    x = np.arange(2, 12, 0.2)
+    x = np.arange(3, 13, 0.3)
     print("y = ", a * np.sin(x) + b * np.cos(x) + abs(a * np.sin(x) - b * np.cos(x)) + c)
 
     plt.plot(x_values, y_values, marker = "o")
